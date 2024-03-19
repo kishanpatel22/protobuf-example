@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package mail;
+
+option go_package = "./mail";
+
+message Mail {
+    string username = 1;
+    string sender = 2;
+    string client_address = 3;
+}
+
